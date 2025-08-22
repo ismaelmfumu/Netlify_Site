@@ -10,8 +10,8 @@ function Contact() {
       <ul className="space-y-4 text-gray-700 text-lg">
         <li className="flex items-center space-x-3">
           <FaEnvelope className="text-primary" />
-          <a href="mailto:your.email@example.com" className="hover:underline">
-            your.email@example.com
+          <a href="mailto:mfumui395@gmail.com" className="hover:underline">
+            mfumui395@gmail.com
           </a>
         </li>
         <li className="flex items-center space-x-3">
