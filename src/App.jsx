@@ -7,20 +7,23 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import Contact from './components/Contact';
 
+import RevealOnScroll from './components/RevealOnScroll'; // Import it
+
 function App() {
   return (
     <div className="bg-white min-h-screen">
       <Navbar />
       <main className="max-w-5xl mx-auto px-4">
-        <Home />
-        <section id="about"><About /></section>
-        <section id="skills"><Skills /></section>
-        <section id="projects"><Projects /></section>
-        <section id="experience"><Experience /></section>
-        <section id="education"><Education /></section>
-        <section id="contact"><Contact /></section>
+        <RevealOnScroll><Home /></RevealOnScroll>
+        <section id="about"><RevealOnScroll><About /></RevealOnScroll></section>
+        <section id="skills"><RevealOnScroll><Skills /></RevealOnScroll></section>
+        <section id="projects"><RevealOnScroll><Projects /></RevealOnScroll></section>
+        <section id="experience"><RevealOnScroll><Experience /></RevealOnScroll></section>
+        <section id="education"><RevealOnScroll><Education /></RevealOnScroll></section>
+        <section id="contact"><RevealOnScroll><Contact /></RevealOnScroll></section>
       </main>
     </div>
   );
 }
+
 export default App;
