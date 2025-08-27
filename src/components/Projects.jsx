@@ -40,7 +40,7 @@ function Projects() {
         </ul>
         <div className="flex justify-center mt-4">
           <img
-            src="/photos/photosforpersonalwebsitepart1/Plow1.jpeg"
+            src="photos/photosforpersonalwebsitepart1/Plow1.jpeg"
             alt="Automated Snow Plow"
             className={`w-64 h-44 object-cover rounded-lg shadow-lg border-2 border-primary
               transition-all duration-700 ease-out
@@ -61,7 +61,7 @@ function Projects() {
         </ul>
         <div className="flex justify-center mt-4">
           <img
-            src="/photos/photosforpersonalwebsitepart1/Plant1.jpeg"
+            src="photos/photosforpersonalwebsitepart1/Plant1.jpeg"
             alt="Smart Garden Irrigation System"
             className={`w-64 h-44 object-cover rounded-lg shadow-lg border-2 border-primary
               transition-all duration-700 ease-out
