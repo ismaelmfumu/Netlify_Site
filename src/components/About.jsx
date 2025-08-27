@@ -7,12 +7,12 @@ function About() {
       {/* Centered Image Row – Enlarged and Responsive */}
       <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mb-6 w-full max-w-xl">
         <img
-          src="/photos/photosforpersonalwebsitepart1/Personal1.jpeg"
+          src="photos/photosforpersonalwebsitepart1/Personal1.jpeg"
           alt="Ismael Personal 1"
           className="w-48 h-48 sm:w-60 sm:h-60 object-cover rounded-xl border-2 border-primary shadow transition-transform duration-300 hover:scale-105"
         />
         <img
-          src="/photos/photosforpersonalwebsitepart1/Personal2.jpeg"
+          src="photos/photosforpersonalwebsitepart1/Personal2.jpeg"
           alt="Ismael Personal 2"
           className="w-48 h-48 sm:w-60 sm:h-60 object-cover rounded-xl border-2 border-primary shadow transition-transform duration-300 hover:scale-105"
         />
